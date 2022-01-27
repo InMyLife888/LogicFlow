@@ -43,7 +43,7 @@ import { lfJson2Xml, lfXml2Json} from '@logicflow/extension';
 const lf = new LogicFlow({
   // ...
 })
-const data = lfJson2Xml(jsonData)
+const data = lfXml2Json(jsonData)
 lf.render(data);
 const xml = lfJson2Xml(lf.getGraphData())
 ```
